@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import ComponentA from './ComponentA.jsx'
+import MyComponent from './MyComponent.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-        <ComponentA />
+        <MyComponent />
     </>
   )
 }
